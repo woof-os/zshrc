@@ -1,4 +1,4 @@
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # History
 HISTFILE=~/.histfile
@@ -13,6 +13,7 @@ alias :wq="exit"
 alias q="exit"
 alias vim="nvim"
 alias ls="exa"
+alias csw="kitty +kitten ssh ubuntu@lewoof.xyz -i ~/Keys/ssh-key-2024-05-06-oracle-main-stockholm.key"
 alias wttr="curl wttr.in"
 
 ### starship completions ###
