@@ -23,3 +23,5 @@ source <(starship completions zsh)
 compdef _starship starship
 
 export GPG_TTY=$(tty)
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
